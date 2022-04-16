@@ -4,6 +4,27 @@ body {
   font-family: Roboto;
 }
 
-.top {
+.top footer{
   background-color: #1F2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.top-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+.header-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
 }
