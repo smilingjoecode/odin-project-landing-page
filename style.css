@@ -39,6 +39,7 @@ nav {
   flex-direction: row;
   justify-content: space-between; 
   padding-bottom: 100px;
+  padding-top: 30px;
 }
 
 .container-left {
@@ -60,25 +61,48 @@ h1 {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #3882F6;
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
+
 .middle {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
+.all-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  width: 130px;
+  height: 130px;
+  border: 2.5px solid #3882F6;
+  border-radius: 6px;
+  background-color: 
+  }
+
 .middle-subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
-  flex-direction: column;
+  gap: 20px;
 }
 
 .quote {
@@ -103,15 +127,26 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+
+h3 {
+  font-size: 24px;
+}
+
 .bottom {
   display: flex;
-  justify-content: center;
-  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
   background-color: #3882F6;
-  color: white;
-  margin: 100px;
-  padding: 50px;
-  flex: auto;
+  color: #f9faf8;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.button-2 {
+  border-color: white;
 }
 
 footer {
